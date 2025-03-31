@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tarjeta de Presentación</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="business-card">
+        <!-- Sección superior con foto y datos personales -->
+        <div class="profile-section">
+            <div class="photo-frame">
+                <img src="img/profile.jpg" alt="Mi foto de perfil" class="profile-photo">
+            </div>
+            <div class="profile-info">
+                <h1 class="name">Erik Molina</h1>
+                <p class="title">Estudiante de Ingeniería en Sistemas Computacionales</p>
+                <p class="description">A través del desarrollo web, ayudo a empresas y proyectos a tener presencia en internet, facilitando el acceso directo a su contenido y productos, y contribuyendo al crecimiento digital de Honduras.</p>
+            </div>
+        </div>
+        
+        <!-- Sección "Por qué lo hago" -->
+        <div class="motivation-section">
+            <h2>¿Por qué lo hago?</h2>
+            <p>Lo hago porque creo en el poder de la tecnología para conectar a las personas con servicios y productos de manera más eficiente. Quiero contribuir al crecimiento digital de Honduras y ayudar a que negocios y proyectos locales tengan un lugar destacado en internet.</p>
+        </div>
+        
+        <!-- Galería de proyectos -->
+        <div class="projects-section">
+            <h2>Ejemplo de propuestas</h2>
+            <div class="projects-gallery">
+                <div class="project-item">
+                    <img src="img/ejemplo1.png" alt="Ejem: Empresa venta de estructuras">
+                    <p>Ejem: Empresa venta de estructuras</p>
+                    <a href="https://erik-molina.github.io/ejemplo1-portafolio/" class="visit-btn">Visitar</a>
+                </div>
+                <div class="project-item">
+                    <img src="img/ejemplo2.png" alt="Ejem: Transporte privado">
+                    <p>Ejem: Transporte privado</p>
+                    <a href="https://erik-molina.github.io/ejemplo2-portafolio/" class="visit-btn">Visitar</a>
+                </div>
+                <div class="project-item">
+                    <img src="img/ejemplo3.png" alt="Próximamente disponible">
+                    <p>Tienda Online (todavía en desarrollo)</p>
+                    <a href="#" class="visit-btn disabled">Próximamente</a>
+                </div>
+            </div>
+        </div>
+
+                <!-- Nueva sección de llamado a la acción -->
+                <div class="cta-section">
+                    <h2>Las grandes compañías tienen un lugar en internet</h2>
+                    <p>¿Y tu negocio? No te quedes atrás en la era digital.</p>
+                    <a href="https://wa.me/50488313413?text=Hola%20Erik,%20me%20interesa%20solicitar%20una%20página%20web%20para%20mi%20negocio" class="cta-button">Solicitar página web</a>
+                </div>
+        
+        <!-- Sección de redes sociales -->
+        <div class="social-section">
+            <h2>Contactame en:</h2>
+            <div class="social-links">
+                <a href="https://wa.me/50488313413?text=Hola%2C%20me%20gustaría%20tener%20más%20información." class="social-icon whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>                
+                <a href="https://www.instagram.com/erikmolina_11?igsh=MTJxam83MGQ5M3l4bg==" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/18MdiHi2tv/" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Lightbox (modal para imágenes) -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
+    
+    <script src="assets/lightbox.js"></script>
+</body>
+</html>
